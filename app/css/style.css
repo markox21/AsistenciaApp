@@ -1,0 +1,48 @@
+
+/* Estilos adicionales para los recuadros */
+.dashboard-box {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.dashboard-box-asistieron {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.dashboard-box-faltaron {
+    background-color: #f8d7da;
+    border: 1px solid #c3e6cb;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.dashboard-box:hover {
+    transform: scale(1.05);
+}
+
+.dashboard-box-asistieron:hover {
+    transform: scale(1.05);
+}
+
+.dashboard-box-faltaron:hover {
+    transform: scale(1.05);
+}
+
+.dashboard-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+}

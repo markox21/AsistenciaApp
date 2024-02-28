@@ -1,0 +1,99 @@
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#showCodeBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  
+}
+
+#showCodeBtn:hover {
+  font-size: 17px;
+  
+}
+
+#hiddenCode {
+  font-size: 18px;
+  position: absolute;
+  top: calc(100% + 10px); /* Coloca el texto generado debajo del botón */
+  left: 50%; /* Centra horizontalmente */
+  transform: translateX(-50%);
+  width: 100%; /* Opcional: asegura que ocupe todo el ancho del contenedor */
+  text-align: center; /* Opcional: centra el texto horizontalmente */
+}
+
+#warningMessage {
+color: red;
+position: relative; /* Cambia a posición relativa */
+top: 70px; /* Ajusta la posición verticalmente según sea necesario */
+}
+
+
+button.btn {
+position: absolute;
+top: 50%; /* Centra verticalmente */
+left: 50%; /* Centra horizontalmente */
+transform: translate(-50%, -50%);
+background-color: #e42705;
+color: white;
+border: none;
+border-radius: 5px;
+font-weight: bold;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+img {
+width: 8%;
+}
+
+
+
+.btn-cerrar {
+position: absolute;
+top: 10px;
+right: 10px;
+padding: 8px 16px;
+font-size: 15px;
+margin-top: 12px;
+margin-right: -10px;
+font-weight: bold;
+transform: translate(-50%, -50%);
+background-color: #ff1f01;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-decoration: none;
+transition: background-color 0.3s;
+}
+
+.btn-cerrar:hover {
+background-color: #f05710;
+}
+
+#footer-row {
+display: flex;
+justify-content: space-around;
+}
+
+.footer-item {
+flex: 1;
+text-align: center;
+}
+
+
+.footer-item img {
+width: 100%;
+max-width: 45px; /* Ajusta el tamaño máximo según sea necesario */
+}
+
+@media screen and (max-width: 768px) {
+.btn-cerrar {
+  padding: 6px 14px; /* Ajustes para pantallas más pequeñas */
+  font-size: 13px; /* Reducción del tamaño de fuente para pantallas más pequeñas */
+  margin-right: -20px;
+}
+}

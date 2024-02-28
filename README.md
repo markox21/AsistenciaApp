@@ -15,7 +15,7 @@ Registramos un nuevo trabajador, al ingresar 8 caracteres en el campo de DNI usa
 ![Registro](https://ibb.co/KyNhX6B)
 
 Login
-![Login](https://ibb.co/xHcVyYd)
+![Login](WhatsApp Image 2024-02-25 at 1.58.00 PM.jpeg)
 
 Al iniciar sesión le damos click al boton de generar codigo y este se ingresa a la BD en la cual nos va a servir para confirmar la asistencia desde el movil.
 ![GenerarCodigo](https://ibb.co/pygQ3jw)
